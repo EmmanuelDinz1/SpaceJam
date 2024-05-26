@@ -4,13 +4,13 @@
 
 <p align="center">
   <image
-  src="https://img.shields.io/github/languages/count/ojonatasquirino/[nome-do-repositorio]"
+  src="https://img.shields.io/github/languages/count/EmmanuelDinz1/SpaceJam.git"
   />
   <image
-  src="https://img.shields.io/github/languages/top/ojonatasquirino/[nome-do-repositorio]"
+  src="https://img.shields.io/github/languages/top/EmmanuelDinz1/SpaceJam.git"
   />
   <image
-  src="https://img.shields.io/github/last-commit/ojonatasquirino/[nome-do-repositorio]"
+  src="https://img.shields.io/github/last-commit/EmmanuelDinz1/SpaceJam.git"
   />
 
 </p>
@@ -22,7 +22,6 @@
 - [tecnologias utilizadas](#id02)
 - [ambiente de codificação](#id03)
 - [clonagem e instalação](#id04)
-- [deploy e implatação](#id05)
 - [responsividade](#id06)
 - [autoria](#id07)
 
