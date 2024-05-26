@@ -173,7 +173,5 @@ Space Jam foi projetado especificamente para ser jogado em ambientes desktop. A 
 <div  align='center'>
 
 [![Linkedin](https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=blue)](www.linkedin.com/in/emmanuel-diniz-a21b06235)
-<a href = "emmanuel.dinizc1@gmail.com">
-![Gmail](https://img.shields.io/badge/Gmail-0D1117?style=for-the-badge&logo=gmail&logoColor=red)</a>
 [![TabNews](https://img.shields.io/badge/tabnews-0D1117?style=for-the-badge&logo=Databricks&logoColor=fff)](https://www.tabnews.com.br/Cheroto1) [![github](https://img.shields.io/badge/Github-0D1117?style=for-the-badge&logo=github&logoColor=fff)](https://github.com/EmmanuelDinz1)
 </div>
