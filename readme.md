@@ -1,4 +1,4 @@
-<h1 align="center"> nome do projeto </h1>
+<h1 align="center"> SpaceJam </h1>
 
 [comment]: <> (Adicione o seu usuário  e o nome do repositório)
 
@@ -32,7 +32,19 @@
 
 <div  align='center'> 
   
-objetivos de aprendizado ou explicar os problemas que essa aplicação resolve.
+O objetivo principal deste projeto é desenvolver um jogo chamado Space Jam utilizando a linguagem de programação C e a biblioteca Allegro. Este projeto foi criado como parte de uma atividade acadêmica para a disciplina de Programação em C. Os objetivos específicos incluem:
+
+Aplicar conceitos de programação em C aprendidos em sala de aula.
+Desenvolver habilidades na utilização da biblioteca Allegro para manipulação gráfica e controle de eventos.
+Criar um jogo funcional que inclui um menu inicial, múltiplas fases e lógica de colisão.
+Objetivos de Aprendizado
+Os objetivos de aprendizado deste projeto são:
+
+Manipulação de Gráficos: Aprender a carregar, desenhar e manipular bitmaps utilizando a biblioteca Allegro.
+Controle de Eventos: Gerenciar entradas do teclado para controlar a nave dentro do jogo.
+Lógica de Jogo: Implementar a lógica de movimento da nave, incluindo efeitos de gravidade e colisão.
+Estruturação de Código: Organizar o código de forma modular, com funções específicas para inicialização, movimentação, colisão e gerenciamento de fases.
+Desenvolvimento de Jogos: Entender os princípios básicos do desenvolvimento de jogos, incluindo design de fases e desafios de jogo.
 
 </div>
 
@@ -40,7 +52,52 @@ objetivos de aprendizado ou explicar os problemas que essa aplicação resolve.
 # descrição detalhada <a name="id01.01"></a>
 
 <div  align='center'> 
-  descrição mais detalhada dos objetos e finalidades do software em construção (ou construído).
+  Space Jam é um jogo de nave bidimensional onde o jogador controla uma espaçonave com o objetivo de pousar em locais específicos sem colidir com obstáculos. O jogo foi desenvolvido em C utilizando a biblioteca Allegro para a manipulação gráfica e controle de eventos. A seguir, uma descrição detalhada dos componentes e funcionalidades do jogo:
+
+Componentes do Jogo
+Menu Inicial:
+
+Exibe o título do jogo e opções de menu.
+O jogador pode navegar pelas opções usando as setas do teclado e selecionar uma opção pressionando a tecla Enter.
+Opções disponíveis: Iniciar Jogo, Créditos e Sair.
+Controle da Nave:
+
+A nave pode ser movida para cima, para a esquerda e para a direita usando as teclas do teclado.
+A nave é constantemente afetada pela gravidade, exigindo que o jogador mantenha a nave em movimento ativo para evitar colisões.
+Fases do Jogo:
+
+O jogo possui duas fases com diferentes desafios.
+Na primeira fase, o jogador deve pousar a nave no local correto evitando obstáculos estáticos.
+Na segunda fase, a dificuldade aumenta com mais obstáculos e padrões de movimento mais complexos.
+Lógica de Colisão:
+
+A lógica de colisão é implementada para detectar quando a nave colide com obstáculos ou ultrapassa os limites do campo de jogo.
+Se uma colisão for detectada, uma mensagem de "Game Over" é exibida e o jogo termina.
+Mensagens e Feedback:
+
+Mensagens de "Parabéns" são exibidas quando o jogador completa uma fase.
+Mensagem de "Game Over" é exibida quando o jogador falha em evitar colisões.
+Funcionalidades do Código
+Inicialização e Finalização:
+
+A função init() inicializa a biblioteca Allegro e configura o modo gráfico.
+A função deinit() finaliza a biblioteca Allegro e limpa o buffer de teclas.
+Movimento da Nave:
+
+A função fMovimento() controla a movimentação da nave, aplicando gravidade quando a tecla de subida não está pressionada.
+Scroll do Background:
+
+A função fScrool_Background() movimenta o fundo da tela para criar a ilusão de movimento.
+Gerenciamento de Fases:
+
+As funções fFase1() e fFase2() gerenciam as respectivas fases do jogo, incluindo o controle de obstáculos e detecção de colisões.
+Teste de Colisões:
+
+A função fTesta_Colisao() verifica se a nave colidiu com algum obstáculo ou ultrapassou os limites do campo de jogo.
+Game Over:
+
+A função fGame_Over() exibe a mensagem de "Game Over" e encerra o jogo quando uma colisão é detectada.
+Este projeto não apenas oferece uma experiência prática com programação em C e utilização da biblioteca Allegro, mas também desenvolve habilidades de resolução de problemas e lógica de programação aplicadas em um contexto de desenvolvimento de jogos.
 </div>
 
 
