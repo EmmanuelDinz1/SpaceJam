@@ -4,13 +4,13 @@
 
 <p align="center">
   <image
-  src="https://img.shields.io/github/languages/count/EmmanuelDinz1/SpaceJam.git"
+  src="https://img.shields.io/github/languages/count/EmmanuelDinz1/SpaceJam"
   />
   <image
-  src="https://img.shields.io/github/languages/top/EmmanuelDinz1/SpaceJam.git"
+  src="https://img.shields.io/github/languages/top/EmmanuelDinz1/SpaceJam"
   />
   <image
-  src="https://img.shields.io/github/last-commit/EmmanuelDinz1/SpaceJam.git"
+  src="https://img.shields.io/github/last-commit/EmmanuelDinz1/SpaceJam"
   />
 
 </p>
