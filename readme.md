@@ -126,31 +126,38 @@ Este projeto não apenas oferece uma experiência prática com programação em 
 Clone este repositório usando o comando:
 
 ```bash
-git clone https://github.com/usuario/repositorio.git
+git clone https://github.com/EmmanuelDinz1/SpaceJam.git
 ```
 
-Instale na pasta do projeto as dependências com uso do npm ou yarn:
+Instale na pasta do projeto as dependências utilizando um compilador de C (como gcc):
 
 ```bash
-adicione aqui os prcocessos adicionais e dependências 
+gcc -o spacejam main.c -lallegro -lallegro_primitives -lallegro_image -lallegro_font 
 ```
-[comment]: <> (Adicione o link da implatação, se houver)
+Execute o Jogo::
 
-# deploy e implatação  <a name="id05"></a>
-
-[comment]: <> (Adicione o link da implatação)
+```bash
+./spacejam
+```
 
 # responsividade  <a name="id06"></a>
 
+O jogo Space Jam foi desenvolvido para ser jogado em um ambiente desktop com uma resolução de 640x480 pixels. A interface e os gráficos foram otimizados para esta resolução específica e podem não se ajustar corretamente em telas de tamanhos diferentes ou em dispositivos móveis sem modificações adicionais.
+
 ## mobile 
+
+Atualmente, Space Jam não possui suporte para dispositivos móveis. O jogo foi projetado para ser jogado com um teclado, o que dificulta a adaptação para telas sensíveis ao toque encontradas em smartphones e tablets. Para uma experiência ideal, recomenda-se jogar em um ambiente desktop.
 
 [comment]: <> (adicione a imagem)
 
 ## tablet
 
+Similar aos dispositivos móveis, Space Jam não foi otimizado para ser jogado em tablets. A falta de suporte a telas sensíveis ao toque e a dependência de controles via teclado fazem com que a experiência em tablets não seja ideal. Para uma experiência de jogo adequada, é recomendável utilizar um computador desktop ou laptop.
 [comment]: <> (adicione a imagem)
 
 ## desktop 
+
+Space Jam foi projetado especificamente para ser jogado em ambientes desktop. A interface gráfica, os controles e a resolução foram todos otimizados para proporcionar a melhor experiência de jogo em um computador desktop ou laptop. Certifique-se de que seu sistema suporta a biblioteca Allegro para garantir que todos os elementos do jogo funcionem corretamente.
 
 [comment]: <> (adicione a imagem)
 
@@ -158,15 +165,15 @@ adicione aqui os prcocessos adicionais e dependências
 
 [comment]: <> (Adicione seu nome e função)
 
-<h3 align='center'> @ojonatasquirino • desenvolvedor front-end
+<h3 align='center'> @emmdiniz1 • software engineer
  </h3>
 
 #
 
 <div  align='center'>
 
-[![Linkedin](https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=blue)](https://www.linkedin.com/in/jonatasquirino/)
-<a href = "mailto:quirinoj02@gmail.com">
+[![Linkedin](https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=blue)](www.linkedin.com/in/emmanuel-diniz-a21b06235)
+<a href = "emmanuel.dinizc1@gmail.com">
 ![Gmail](https://img.shields.io/badge/Gmail-0D1117?style=for-the-badge&logo=gmail&logoColor=red)</a>
-[![TabNews](https://img.shields.io/badge/tabnews-0D1117?style=for-the-badge&logo=Databricks&logoColor=fff)](https://www.tabnews.com.br/ojonatasquirino) [![github](https://img.shields.io/badge/Github-0D1117?style=for-the-badge&logo=github&logoColor=fff)](https://www.github.com/ojonatasquirino)
+[![TabNews](https://img.shields.io/badge/tabnews-0D1117?style=for-the-badge&logo=Databricks&logoColor=fff)](https://www.tabnews.com.br/Cheroto1) [![github](https://img.shields.io/badge/Github-0D1117?style=for-the-badge&logo=github&logoColor=fff)](https://github.com/EmmanuelDinz1)
 </div>
